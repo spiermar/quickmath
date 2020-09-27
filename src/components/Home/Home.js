@@ -1,5 +1,6 @@
 import React from 'react';
-import Button from '@material-ui/core/Button'
+import Button from '@material-ui/core/Button';
+import { useHistory } from "react-router-dom";
 
 const styles = {
   logoContainer: {
@@ -22,6 +23,8 @@ const styles = {
 }
 
 function Home() {
+  let history = useHistory();
+  
   return (
     <div>
       <div style={styles.logoContainer}>
@@ -29,7 +32,7 @@ function Home() {
       </div>
       <div style={styles.container}>
         <div style={styles.buttonContainer}>
-          <Button style={styles.lessonButton} variant="contained" size="large" color="primary">
+          <Button style={styles.lessonButton} variant="contained" size="large" color="primary" onClick={() => { history.push("/doubledigitsum") }}>
             Double Digit Sum
           </Button>
           <Button disabled style={styles.lessonButton } variant="contained" size="large" color="primary">
@@ -49,7 +52,6 @@ function Home() {
           </Button>
         </div>
       </div>
-      
     </div>
   );
 }
