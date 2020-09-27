@@ -29,22 +29,22 @@ function Home() {
       </div>
       <div style={styles.container}>
         <div style={styles.buttonContainer}>
-          <Button style={styles.lessonButton} variant="contained" color="primary">
+          <Button style={styles.lessonButton} variant="contained" size="large" color="primary">
             Double Digit Sum
           </Button>
-          <Button disabled style={styles.lessonButton } variant="contained" color="primary">
+          <Button disabled style={styles.lessonButton } variant="contained" size="large" color="primary">
             Triple Digit Sum
           </Button>
-          <Button disabled style={styles.lessonButton} variant="contained" color="primary">
+          <Button disabled style={styles.lessonButton} variant="contained" size="large" color="primary">
             Double Digit Sub
           </Button>
-          <Button disabled style={styles.lessonButton} variant="contained" color="primary">
+          <Button disabled style={styles.lessonButton} variant="contained" size="large" color="primary">
             Triple Digit Sub
           </Button>
-          <Button disabled style={styles.lessonButton} variant="contained" color="primary">
+          <Button disabled style={styles.lessonButton} variant="contained" size="large" color="primary">
             Single Digit Multi
           </Button>
-          <Button disabled style={styles.lessonButton} variant="contained" color="primary">
+          <Button disabled style={styles.lessonButton} variant="contained" size="large" color="primary">
             Double Digit Multi
           </Button>
         </div>
