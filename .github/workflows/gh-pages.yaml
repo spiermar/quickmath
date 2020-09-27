@@ -1,4 +1,4 @@
-name: deploy to github pages
+name: Deploy to github pages
 on:
   push:
     branches:
@@ -23,3 +23,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           cname: quickmath.martinspier.io
+          user_name: 'Martin Spier'
+          user_email: 'spiermar@gmail.com'
