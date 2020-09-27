@@ -1,0 +1,8 @@
+.MuiButton-containedPrimary {
+    background-color: #70C6C7 !important;
+    color: #F1FAEE !important;
+}
+.MuiButton-containedPrimary.Mui-disabled {
+    background-color: #DCF1E8 !important;
+    color: #86CFCE !important;
+}
