@@ -1,8 +1,10 @@
-.MuiButton-containedPrimary {
-    background-color: #70C6C7 !important;
-    color: #F1FAEE !important;
+.MuiOutlinedInput-notchedOutline {
+    border-color: #DCF1E8 !important;
 }
-.MuiButton-containedPrimary.Mui-disabled {
-    background-color: #DCF1E8 !important;
-    color: #86CFCE !important;
+
+.MuiInputBase-input.MuiOutlinedInput-input {
+    color: #DCF1E8;
+    text-align: center;
+    font-size: 32px;
+    width: 125px;
 }
